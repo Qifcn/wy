@@ -1,0 +1,9 @@
+wy.gao4.top:80 {
+  redir https://wy.gao4.top{url}
+}
+
+wy.gao4.top:443 {
+  gzip
+  log /etc/caddy/caddy.log
+  root /www
+}
